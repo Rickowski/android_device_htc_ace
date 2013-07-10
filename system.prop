@@ -3,6 +3,9 @@
 #
 ro.sf.lcd_density=213
 
+#hold precise GC data, and use SMP
+dalvik.vm.dexopt-flags=m=y,u=n,v=n,o=v
+
 #disable system restrictions for all builds
 persist.sys.strictmode.visual=0
 
