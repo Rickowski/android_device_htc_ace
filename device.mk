@@ -144,9 +144,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.zram.default=18 \
 	persist.service.zram=18
 
-# We have enough space to hold precise GC data
-PRODUCT_TAGS += dalvik.gc.type-precise
-
 # Set build date
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
