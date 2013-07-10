@@ -69,3 +69,8 @@ ro.config.nocheckin=yes
 
 # Enable purgable assets
 persist.sys.purgable_assets=1
+
+# Enable debugging
+persist.service.adb.enable=1
+ro.adb.secure=0
+ro.debuggable=1
