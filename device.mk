@@ -144,6 +144,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.zram.default=18 \
 	persist.service.zram=18
 
+# Override temasek version
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.temasek.version=private-OMR-build
+
 # Set build date
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
