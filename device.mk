@@ -139,9 +139,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vold.umsdirtyratio=20
 
-# Turn off ZRAM by default
+# Enable ZRAM by default
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.zram.default=0
+	ro.zram.default=18 \
+	persist.service.zram=18
 
 # We have enough space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
