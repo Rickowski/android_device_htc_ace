@@ -66,3 +66,6 @@ ro.kernel.android.checkjni=0
 
 # Disable Sending Usage Data
 ro.config.nocheckin=yes
+
+# Enable purgable assets
+persist.sys.purgable_assets=1
