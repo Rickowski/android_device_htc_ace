@@ -9,7 +9,6 @@ dalvik.vm.dexopt-data-only=1
 
 #disable system restrictions for all builds
 persist.sys.strictmode.visual=0
-ro.secure=0
 
 com.qc.hardware=true
 
